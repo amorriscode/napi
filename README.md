@@ -1,6 +1,6 @@
 # napi 🥱
 
-Napi is an API starter for TypeScript GraphQL backends. There are already a thousand starters out there but this one is mine.
+Napi (New API) is an API starter for TypeScript GraphQL backends. There are already a thousand starters out there but this one is mine.
 
 ## The Stack
 
