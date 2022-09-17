@@ -21,5 +21,5 @@ Napi (New API) is an API starter for TypeScript GraphQL backends. There are alre
 - Testing
 - Auth
 - Better documentation
-- Once click deploys
+- One click deploys
 - Whatever you want?
