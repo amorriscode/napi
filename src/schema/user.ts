@@ -1,13 +1,12 @@
 import { builder } from './builder'
-import { db } from '../db'
+import { db } from '../services/db'
 
 const User = builder.prismaObject('User', {
   fields: (t) => ({
     id: t.exposeID('id'),
-    username: t.exposeString('username'),
-    countryCode: t.exposeString('countryCode'),
-    areaCode: t.exposeString('areaCode'),
-    phoneNumber: t.exposeString('phoneNumber'),
+    email: t.exposeString('email'),
+    createdAt: t.expose('createdAt', { type: 'DateTime' }),
+    updatedAt: t.expose('createdAt', { type: 'DateTime' }),
   }),
 })
 
